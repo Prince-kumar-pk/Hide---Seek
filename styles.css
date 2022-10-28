@@ -100,7 +100,7 @@ body {
 
 
 
-@media only screen and (max-width: 700px) {
+/* @media only screen and (max-width: 700px) {
 
 #text{
   margin: 121px 0px 0px 250px;
@@ -119,5 +119,65 @@ body {
 }
 
 
+} */
+
+@media only screen and (max-width: 1120px){
+
+  .information{
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    left: 20%;
+    top: 20%;
+    
+  }
+  #text{
+    position: absolute;
+    margin: auto;
+    display: inline;
+    color: white;
+    font-size: 31px;
+    left: 50%;
+    top: 8%;
+  }
+
+  .memory-game {
+    min-width: 90%;
+    max-height:65%;
+    margin:auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
+    position: absolute;
+    top: 31%;
+    left: 5%;
+  }
+  .memory-card {
+    width: calc(14% - -12px);
+    height: calc(18.333% - 10px);
+    /* width: calc(18% - -12px);
+    height: calc(29.333% - 47px); */
+    margin: 5px;
+    position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
+    box-shadow: 1px 1px 1px rgb(0 0 0 / 30%);
 }
 
+  #replay button {
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    position: absolute;
+    top: -1468%;
+    left: -116%;
+}
+  
+  
+}
