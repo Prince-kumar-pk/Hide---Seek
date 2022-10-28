@@ -13,8 +13,7 @@ function flipCard() {
  lf = lf - 1;
  life.innerHTML = lf;
  this.classList.add("flip");
-
-
+ 
   // console.log(this.getAttribute("data-value"));
 audioTurn.play();
 
@@ -64,8 +63,6 @@ function check(){
 
   }
 }
-
-
 
 (function shuffle() {
   cards.forEach((card) => {
