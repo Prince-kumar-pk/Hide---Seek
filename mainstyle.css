@@ -101,14 +101,19 @@ color: white;
     height: 80%;
 }
 .firsthalf{
-    width: 80%;
+    width: 100%;
+    margin: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     justify-content: center;
 
 }
 .secondhalf{
 width: 30%;
+}
+.buttons{
+    margin: auto;
 }
 
 .secondhalf img{
@@ -122,10 +127,11 @@ width: 30%;
 
 .text-big{
 font-size: 40px;
-/* text-align: justify; */
+margin: auto;
 }
 .text-small{
 font-size: 20px;
+margin: auto;
 }
 .btn{
     padding: 8px 20px;
@@ -141,7 +147,7 @@ font-size: 20px;
 .btn-play{
     padding: 10px 20px;
     margin: 7px 0;
-    width: 150px;
+    width: auto;
     height: 50px;
     border:2px solid white;
     border-radius: 8px;
@@ -176,6 +182,25 @@ font-size: 20px;
     max-width: 80%;
     margin: auto;
     padding: 10px;
+}
+.section_service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url("img/bg2.jpg");
+    background-size: cover;
+}
+.section_service h2{
+    color: white;
+    position: relative;
+    top: 20%;
+    font-size: 40px;
+}
+.wa{
+    width: auto;
+    justify-self: space;
 }
 .para{
     padding: 0 65px;

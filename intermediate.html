@@ -8,13 +8,41 @@
   <script src="https://kit.fontawesome.com/dde4a4e716.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles.css" />
   <style>
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align:start;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: rgb(223, 13, 13);
+}
+
+.inf {
+  /* background: #3B5998; */
+  color: white;
+}
   </style>
 </head>
 
 <body>
 
-
+  <div class="icon-bar">
+    <a href="#" class="inf"><i class="fa-solid fa-circle-question"></i></a>
+  </div>
 
 
   <p id="text"></p>
