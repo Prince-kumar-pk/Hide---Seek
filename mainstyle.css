@@ -313,6 +313,22 @@ display: none;
     .para{
         padding: 0px;
     }
+    .btn-play {
+        padding: 10px 20px;
+        margin: 8px 89px;
+        width: 204px;
+        height: 50px;
+        border: 2px solid white;
+        border-radius: 8px;
+        font-size: 26px;
+        background: none;
+        color: white;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        background-image: url(img/btn.jpg);
+        background-size: cover;
+    }
+    
 }
 
 
