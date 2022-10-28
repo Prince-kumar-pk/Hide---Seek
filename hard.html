@@ -6,6 +6,22 @@
     <title>Game</title>
 
     <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      .memory-game{
+        margin: 140px auto;
+      }
+      .memory-card {
+    width: calc(13% - 2px);
+    height: calc(15.333% - 10px);
+    margin: 5px;
+    position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
+    box-shadow: 1px 1px 1px rgb(0 0 0 / 30%);
+}
+    </style>
   </head>
   <body>
     <div class="information">
@@ -40,6 +56,55 @@
         <img class="front-face" src="img/miss.jpg" alt="" />
         <img class="back-face" src="img/guess.jpg" alt="" />
       </div>
+      <div class="memory-card" data-value="miss">
+        <img class="front-face" src="img/miss.jpg" alt="" />
+        <img class="back-face" src="img/guess.jpg" alt="" />
+      </div>
+      <div class="memory-card" data-value="miss">
+        <img class="front-face" src="img/miss.jpg" alt="" />
+        <img class="back-face" src="img/guess.jpg" alt="" />
+      </div>
+      <div class="memory-card" data-value="miss">
+        <img class="front-face" src="img/miss.jpg" alt="" />
+        <img class="back-face" src="img/guess.jpg" alt="" />
+      </div>
+      <div class="memory-card" data-value="miss">
+        <img class="front-face" src="img/miss.jpg" alt="" />
+        <img class="back-face" src="img/guess.jpg" alt="" />
+      </div>
+      <div class="memory-card" data-value="miss">
+        <img class="front-face" src="img/miss.jpg" alt="" />
+        <img class="back-face" src="img/guess.jpg" alt="" />
+      </div>
+      <div class="memory-card" data-value="miss">
+        <img class="front-face" src="img/miss.jpg" alt="" />
+        <img class="back-face" src="img/guess.jpg" alt="" />
+      </div>
+      <div class="memory-card" data-value="miss">
+        <img class="front-face" src="img/miss.jpg" alt="" />
+        <img class="back-face" src="img/guess.jpg" alt="" />
+      </div>
+      <div class="memory-card" data-value="miss">
+        <img class="front-face" src="img/miss.jpg" alt="" />
+        <img class="back-face" src="img/guess.jpg" alt="" />
+      </div>
+      <div class="memory-card" data-value="miss">
+        <img class="front-face" src="img/miss.jpg" alt="" />
+        <img class="back-face" src="img/guess.jpg" alt="" />
+      </div>
+      <div class="memory-card" data-value="miss">
+        <img class="front-face" src="img/miss.jpg" alt="" />
+        <img class="back-face" src="img/guess.jpg" alt="" />
+      </div>
+      <div class="memory-card" data-value="miss">
+        <img class="front-face" src="img/miss.jpg" alt="" />
+        <img class="back-face" src="img/guess.jpg" alt="" />
+      </div>
+
+      <div class="memory-card" data-value="miss">
+        <img class="front-face" src="img/miss.jpg" alt="" />
+        <img class="back-face" src="img/guess.jpg" alt="" />
+      </div>
 
       <div class="memory-card" data-value="miss">
         <img class="front-face" src="img/miss.jpg" alt="" />
@@ -59,6 +124,18 @@
         <img class="back-face" src="img/guess.jpg" alt="" />
       </div>
 
+      <div class="memory-card" data-value="danegr" id="danger">
+        <img class="front-face" src="img/denegr.jpg" alt="denegr" />
+        <img class="back-face" src="img/guess.jpg" alt="" />
+      </div>
+      <div class="memory-card" data-value="danegr" id="danger">
+        <img class="front-face" src="img/denegr.jpg" alt="denegr" />
+        <img class="back-face" src="img/guess.jpg" alt="" />
+      </div>
+      <div class="memory-card" data-value="danegr" id="danger">
+        <img class="front-face" src="img/denegr.jpg" alt="denegr" />
+        <img class="back-face" src="img/guess.jpg" alt="" />
+      </div>
       <div class="memory-card" data-value="danegr" id="danger">
         <img class="front-face" src="img/denegr.jpg" alt="denegr" />
         <img class="back-face" src="img/guess.jpg" alt="" />
@@ -83,8 +160,30 @@
         <img class="front-face" src="img/gift.png" alt="gift" />
         <img class="back-face" src="img/guess.jpg" alt="" />
       </div>
+      <div class="memory-card" data-value="gift">
+        <img class="front-face" src="img/gift.png" alt="gift" />
+        <img class="back-face" src="img/guess.jpg" alt="" />
+      </div>
+      <div class="memory-card" data-value="gift">
+        <img class="front-face" src="img/gift.png" alt="gift" />
+        <img class="back-face" src="img/guess.jpg" alt="" />
+      </div>
+      <div class="memory-card" data-value="gift">
+        <img class="front-face" src="img/gift.png" alt="gift" />
+        <img class="back-face" src="img/guess.jpg" alt="" />
+      </div>
+      <div class="memory-card" data-value="gift">
+        <img class="front-face" src="img/gift.png" alt="gift" />
+        <img class="back-face" src="img/guess.jpg" alt="" />
+      </div>
+      <div class="memory-card" data-value="gift">
+        <img class="front-face" src="img/gift.png" alt="gift" />
+        <img class="back-face" src="img/guess.jpg" alt="" />
+      </div>
     </section>
-
-    <script src="scripts.js"></script>
+    <div id = "replay">
+      <button id = "replay_btn" onclick="reload()"><i class="fa-sharp fa-solid fa-arrow-rotate-left"></i> &nbsp;REPLAY</button>
+    </div>
+    <script src="hard.js"></script>
   </body>
 </html>
