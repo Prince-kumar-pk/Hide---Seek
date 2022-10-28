@@ -9,8 +9,6 @@ var gift = 0;
 var lf = 10;
 var sc ;
 
-
-
 function flipCard() {
  lf = lf - 1;
  life.innerHTML = lf;
@@ -49,7 +47,7 @@ check();
 }
 
 function check(){
-
+console.log(lf);
   if (gift===10) {
     // console.log("checked");
     document.getElementById("text").innerHTML = "All Gifts Captured! You Win";
@@ -77,5 +75,5 @@ function check(){
 
 function reload()
 {
-  window.location.href = "./intermediate.html";
+  window.location.href = "./hard.html";
 }

@@ -21,14 +21,26 @@
     transition: transform .5s;
     box-shadow: 1px 1px 1px rgb(0 0 0 / 30%);
 }
+.head a {
+ width: 20px;
+ color: white;
+ font-size: 30px;
+}
     </style>
   </head>
   <body>
-    <div class="information">
-    Life:  <p id="life"></p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    Total Score:&nbsp;<p id = "score"></p>
-    </div>
 
+
+    <div class="head">
+      <a href="index.html"><i class="fa-solid fa-arrow-left"></i>Back</a> 
+         <h1>Hard level</h1>
+     </div>
+
+    <div class="information">
+    Life:  <p id="life">10</p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Total Score:&nbsp;<p id = "score">0</p>
+    </div>
+    <p id="text"></p>
     <section class="memory-game">
       <div class="memory-card" data-value="miss">
         <img class="front-face" src="img/miss.jpg" alt="" />
