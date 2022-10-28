@@ -9,6 +9,8 @@ var gift = 0;
 var lf = 10;
 var sc ;
 
+
+
 function flipCard() {
  lf = lf - 1;
  life.innerHTML = lf;
