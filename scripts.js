@@ -2,8 +2,8 @@ const cards = document.querySelectorAll(".memory-card");
 let life = document.getElementById("life");
 cards.forEach((card) => card.addEventListener("click", flipCard));
 
-let audioTurn = new Audio("/music/ting.mp3")
-let gameover_audio = new Audio("/music/gameover.mp3")
+let audioTurn = new Audio("music/ting.mp3")
+let gameover_audio = new Audio("music/gameover.mp3")
 var miss_count = 0;
 var gift = 0;
 var lf = 5;
@@ -31,6 +31,8 @@ audioTurn.play();
   }else  {
     document.getElementById("text").innerHTML = "You click on Danger! Game Over";
     cards.forEach((card) => card.removeEventListener("click", flipCard));
+    let btn = document.getElementById("replay");
+    btn.style.display = "block";
     gameover_audio.play();
     // console.log("its danger");
   }

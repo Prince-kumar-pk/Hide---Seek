@@ -81,7 +81,7 @@ color: white;
     border-radius: 5px;
 }
 .background {
-    background: rgb(74 34 34 / 53%) url(../img/bg1.jpg);
+    background: rgb(74 34 34 / 53%) url(img/bg1.jpg);
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -150,7 +150,7 @@ font-size: 20px;
     color:white;
     cursor: pointer;
     transition: all 0.3s ease;
-    background-image: url(/img/btn.jpg);
+    background-image: url(img/btn.jpg);
     background-size: cover;
 }
 .btn-play:hover {

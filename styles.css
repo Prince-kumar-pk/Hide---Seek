@@ -9,7 +9,7 @@
 body {
   height: 100vh;
   display: flex;
-  background-image: url("/img/game.jpg");
+  background-image: url("img/game.jpg");
   background-size:contain;
 }
 
@@ -91,4 +91,14 @@ body {
   height: 100%;
   background-color: aliceblue;
   
+}
+
+@media only screen and (max-width: 900px){
+
+  .information {
+    position: absolute;
+    margin: 67px 229px;
+   
+}
+
 }
